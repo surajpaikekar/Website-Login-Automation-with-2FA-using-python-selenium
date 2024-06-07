@@ -38,3 +38,22 @@ Adjust the XPaths in the script to match the current structure of the target web
 
 Execute the script in non-headless mode to observe the automation process. This will allow you to see the steps being performed live.
 
+
+**Note**: This guide assumes the use of a Gmail account for generating OTPs. You may need to modify the code if you choose to use a different method for receiving OTPs.
+
+## Additional Information
+
+- Ensure your Selenium WebDriver is compatible with the version of the browser you intend to use.
+- Running the script in headless mode is possible but requires additional setup for capturing screenshots or logs.
+
+## Troubleshooting
+
+If you encounter issues during execution, check the following:
+
+- Verify all credentials and URLs are correctly entered.
+- Confirm the XPaths match the current layout of the target website.
+- Ensure your Selenium WebDriver is up-to-date and matches your browser version.
+
+## Conclusion
+
+By following these steps, you should be able to successfully automate the login process for websites with 2FA enabled using Python and Selenium. Remember, this approach relies heavily on the current state of the target website, so minor changes to the site's layout may require adjustments to the script.
